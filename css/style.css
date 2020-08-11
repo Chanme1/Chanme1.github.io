@@ -161,6 +161,11 @@ header nav{
   color: #ac3b61;
 }
 
+#contact h1{
+  text-align: center;
+  font-size: 35px;
+}
+
 #contact p{
   font-size: 20px;
   text-align: center;
