@@ -1,22 +1,109 @@
-<link rel="stylesheet" type="text/css" href="css/webpage.css">
-<script src="js/webpage.js"></script>
-<body>
-  <div class = "topnav">
-    <div class = "link">
-      <a href ="about.html">About</a>
-      <a href="https://www.linkedin.com/in/melissachan98/">LinkedIn</a>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content = "width=device-width">
+    <title>Melissa Chan | Security Analyst</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="js/webpage.js"></script>
+  </head>
+  <body>
+    <div class = "container">
+      <div class = "logo">
+        <img src = "./img/pinklogo.png" width ="342" height ="auto">
+      </div>
     </div>
-    <div class = "logo">
-      <a href ="index.html"><img src = "logo.png" width = "100px" height="40px"></a>
-    </div>
-  </div>
+    <header>
+      <div class = "container">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="about.html">Resume</a></li>
+            <li><a href="about.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  <div class ="intro">
-    <img src = "char.png" width = "255" height="250"></div>
-    <h1>Hi! My Name is Melissa!<br>I am
-      <a href="" class="typewrite" data-period="2000" data-type='[ "a student!", "a developer!", "a creator!"]'>
-        <span class="wrap"></span>
-      </a>
-    </h1>
-  </div>
-<body>
+    <section id="showcase">
+      <div class="container">
+          <div id = "myicon">
+            <img src = "./img/newlogo.png">
+          </div>
+          <div id = "intro">
+            <h1>Hi! My name is Melissa!</h1>
+            <p> I am
+              <a class="typewrite" data-period="2000" data-type='[ "a programmer!", "an analyst!", "a creator!"]'>
+                <span class="wrap"></span>
+              </a>
+            </p>
+            <p>But overall, I am a cybersecurity enthusiast, who recently graduated with a Bachelor's degree in Computer Science
+              and Information Security. I mostly focus on tech policies and controls, but I have a passion for programming and breaking things apart.
+              This fall, I will be joining Accenture as a Security Analyst in their NYC office.</p>
+            <a class="button" id = "about" href="about.html">About Me</a>
+          </div>
+      </div>
+    </section>
+
+    <div class = "dividers"></div>
+    <section id="experience">
+      <div class="container">
+        <h1> Work Experiences</h1>
+        <p> Check out my resume for more </p>
+            <div class="box">
+              <img id = "name" src="./img/cisco.png">
+            </div>
+            <div class="box">
+              <img id = "name" src="./img/aetna.png">
+            </div>
+            <div class="box">
+              <img src="./img/c3.png">
+            </div>
+            <div class="box">
+              <img id = "name" src="./img/verizon.png">
+            </div>
+            <div class="box">
+              <img src="./img/twosigma.png">
+            </div>
+            <div class="box">
+              <img id = "name" src="./img/cwa.png">
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <div class = "dividers"></div>
+    <section id="contact">
+      <div class="container">
+        <h1> Contact Me</h1>
+        <p> Send a note and I will try my best to respond as soon as possible!</p>
+        <form action="https://formspree.io/mqkyjqlo" method="POST">
+          <div class="control"><input type="text"  id="name"/><label for="name">Your Name</label></div>
+			    <div class="control"><input type="text"  id="email"/><label for="email">Email Address</label></div>
+      		<div class="control"><input type="text"  id="url"/><label for="url">Website</label></div>
+      		<div class="control"><textarea name="" id="message"></textarea><label for="message">Message</label></div>
+      		<div class="control submit"><input type="submit" /></div>
+		    </form>
+	     </div>
+          <label> Name:
+            <input type="text" name="_replyto">
+          </label>
+          <label> Email:
+            <input type="text" name="_replyto">
+          </label>
+          <label> Message:
+            <textarea name="message"></textarea>
+          </label>
+
+          <!-- your other form fields go here -->
+
+          <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+      <p> Copywrite &copy; 2020 Melissa Chan <p>
+    </footer>
+  </body>
+</html>
