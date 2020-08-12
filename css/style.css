@@ -247,48 +247,6 @@ footer{
     color: #62c0e3;
     font-size: 15px;
 }
-.prompt {
-	color: rgb(189, 227, 113);
-}
-/*
-.buttonpos{
-  padding: 0 0 0 10px;
-}
-
-*/
-.fakeScreen {
-  background-color: #151515;
-  box-sizing: border-box;
-  width: auto;
-  margin: 0 100px 0 100px;
-  padding: 20px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  overflow: hidden;
-}
-
-
-.aboutText{
-  font-family: "Courier New", Courier, monospace;
-  line-height: 25px;
-}
-
-#aboutme{
-  color: #67bfe0;
-  font-size: 20px;
-}
-
-.anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
-   text-align: left;
-   white-space: nowrap;
-   width: 50px;
-   overflow: hidden;
-   transform: translateY(-50%);
-   color: #33d036;
-   position: relative;
-}
 
 /* Media Queries */
 @media(max-width: 770px){
