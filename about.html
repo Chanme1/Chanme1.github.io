@@ -1,35 +1,51 @@
-<link rel="stylesheet" type="text/css" href="css/webpage.css">
-<script src="css/webpage.js"></script>
-<body>
-  <div class = "topnav">
-    <div class = "link">
-      <a href ="about.html">About</a>
-      <a href="https://www.linkedin.com/in/melissachan98/">LinkedIn</a>
-    </div>
-    <div class= "logo">
-      <a href="index.html"><img src = "logo.png" width = "100px" height="40px"></a>
-    </div>
-  </div>
+<!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title>Melissa Chan | Security Analyst</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <script src="js/webpage.js"></script>
+    </head>
+    <body>
+      <div class = "container">
+        <div class = "logo">
+          <img src = "./img/pinklogo.png" width ="342" height ="auto">
+        </div>
+      </div>
+      <header>
+        <div class = "container">
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="about.html">Resume</a></li>
+              <li><a href="about.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
 
-  <div class="about">
-    <div class="fakeMenu">
-      <div class="buttonpos">
-      <div class="fakeButtons fakeClose"></div>
-      <div class="fakeButtons fakeMinimize"></div>
-      <div class="fakeButtons fakeZoom"></div>
-    </div>
-    </div>
+      <section id = "terminal">
+        <div class= "container">
+          <div class="terminal-bar">
+            <div class="icon-btn close"></div>
+            <div class="icon-btn min"></div>
+            <div class="icon-btn max"></div>
+          </div>
+        <div class="terminalwindow" onclick="document.getElementById('dummyKeyboard').focus();">
+              <div class="terminal-output" id="terminalOutput">
+                <div class="terminalline">
+                  <span class="help-msg">Welcome to my about me — Type <span class="code">help</span>
+                    for a list of supported commands.</span>
+                </div>
+                <p id = "demo"></p>
+              </div>
+        </div>
+        </div>
+      </section>
 
-    <div class="fakescreen">
-      <p class="aboutme"> Hi, my name is Melissa. I am a sophomore at Macaulay Honors College,
-        majoring in Computer Science and Information Security with a focus in Cybersecurity and Artificial Intelligence.
-        I am one of the founders of JJay WiT, a women in technology club at John Jay, and part of Cornell Tech's Women in Technology and
-        Entrepreneurship of New York (WiTNY) program. </p>
-      <p class="line-1 anim-typewriter">Awards: Dean's Scholar (since 2016), WiTNY Scholarship, ReWriting the Code Fellowship (RTC)</p>
-      <p class="line-2 anim-typewriter2">Languages: Python, C++, HTML, CSS, Javascript, Java, C#, x86 Assembly Language</p>
-      <p class="line-3 anim-typewriter3">Tools & Softwares: Docker, Amazon Web Services (AWS), PyCharm, X-Code, Blender, Unity</p>
-      <p class="line-4 anim-typewriter4">// I'm currently looking for cybersecurity internships and mentorship opportunities.</p>
-      <p class="line-5 anim-typewriter5">><span class="cursor">|</span></p>
-    </div>
-  </div>
-<body>
+      <footer>
+        <p> Copywrite &copy; 2020 Melissa Chan <p>
+      </footer>
+    </body>
+</html>
