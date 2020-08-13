@@ -54,6 +54,8 @@ window.onload = function() {
     document.body.appendChild(css);
 };
 
+/*terminal outputs*/
+
 const BLACKLISTED_KEY_CODES = [ 38 ];
 const COMMANDS = {
   about:
