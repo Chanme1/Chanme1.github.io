@@ -229,18 +229,19 @@ footer{
     background-color: #ffbd48;
 }
 
-.terminalwindow{
+.terminal-window{
   background-color: black;
   opacity: 0.6;
-  /*#a7bbd9*/
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   margin: 0 100px 0 100px;
   padding: 20px;
-  height: 300px;
+  height: 387px;
+  overflow: scroll;
+  flex-direction: column;
 }
 
-.terminalline {
+.terminal-line {
     position: relative;
     font-family: 'Anonymous Pro', monospace;
     font-size: .9rem;
@@ -248,6 +249,22 @@ footer{
     font-size: 15px;
 }
 
+.code{
+  color: #8467eb;
+  font-weight: bold;
+}
+
+.dummy-keyboard {
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+
+.infolist{
+  color: #ebab67;
+}
+::-webkit-scrollbar {
+    display: none;
+}
 /* Media Queries */
 @media(max-width: 770px){
   .logo,

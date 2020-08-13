@@ -32,14 +32,21 @@
             <div class="icon-btn min"></div>
             <div class="icon-btn max"></div>
           </div>
-          <div class="terminalwindow" onclick="document.getElementById('dummyKeyboard').focus();">
-                <div class="terminal-output" id="terminalOutput">
-                  <div class="terminalline">
-                    <span class="help-msg">Welcome to my about me — Type <span class="code">help</span>
-                      for a list of supported commands.</span>
-                  </div>
-                  <p id = "demo"></p>
+
+          <div class="terminal-window" onclick="document.getElementById('dummyKeyboard').focus();">
+            <div class="terminal-output" id="terminalOutput">
+                <div class="terminal-line">
+                  <span class="help-msg">Hello! Welcome to my page! Type <span class="code">about</span>,
+                  <span class="code">skills</span>, <span class="code">awards</span>, <span class="code">hobbies</span>
+                    to learn more.</span>
                 </div>
+              </div>
+              <div class="terminal-line">
+                <span class="success">➜</span> <span class="directory">~</span> <span class="user-input"
+                  id="userInput"></span>
+                <input type="text" id="dummyKeyboard" class="dummy-keyboard">
+              </div>
+
           </div>
         </div>
       </section>
