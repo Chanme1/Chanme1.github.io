@@ -181,10 +181,38 @@ footer{
   text-align: right;
 }
 
+/* sidebar
+.sidebar{
+  background-color: rgb(23, 42, 69);
+  float: left;
+  border-radius: 5px;
+  align-items: center;
+  flex-direction: column;
+  border-color: red;
+  border-style: groove;
+  height: 450px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+#profilepic{
+  width: 70%;
+  height:auto;
+  align-items: center;
+}
+*/
+
 /*terminal*/
-#terminal{
+#termabout{
   margin-top: 40px;
 }
+
+/*ifsidebar
+.terminal{
+  padding-left: 300px;
+}
+*/
 
 .terminal-bar{
   height: 25px;
@@ -239,6 +267,7 @@ footer{
   height: 387px;
   overflow: scroll;
   flex-direction: column;
+  display: flex;
 }
 
 .terminal-line {
@@ -266,6 +295,7 @@ footer{
 ::-webkit-scrollbar {
     display: none;
 }
+
 /* Media Queries */
 @media(max-width: 770px){
   .logo,
@@ -276,18 +306,21 @@ footer{
     width: 100%;
   }
 
+  #profilepic,
   #icon{
     float:none;
     text-align: center;
     width:100%;
   }
 
+  #terminal,
   #intro{
     float:none;
     width: 100%;
     padding: -50px;
   }
 
+  #termabout,
   #showcase h1{
     margin-top:40px;
   }
@@ -295,9 +328,4 @@ footer{
   .anim-typewriter{
     float:none;
     width: 100%;
-  }
-
-  @keyframes typewriter{
-    from{width: 0;}
-    to{width: 60em;}
   }
