@@ -85,7 +85,6 @@ const COMMANDS = {
   '<span class ="infolist">1:</span> Baking and experimenting with new recipes<br>' +
   '<span class ="infolist">2:</span> Crocheting amigurumi (Tiny stuff animals or items)<br>' +
   '<span class ="infolist">3:</span> Watching re-runs of "Friends" and crime shows (E.g. "Criminal Minds" & "Law and Order: SVU")<br>',
-
 };
 let userInput, terminalOutput;
 

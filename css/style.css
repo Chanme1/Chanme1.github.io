@@ -306,21 +306,19 @@ footer{
     width: 100%;
   }
 
-  #profilepic,
   #icon{
     float:none;
     text-align: center;
     width:100%;
   }
 
-  #terminal,
-  #intro{
+  #intro,
+  #termabout{
     float:none;
     width: 100%;
     padding: -50px;
   }
 
-  #termabout,
   #showcase h1{
     margin-top:40px;
   }
